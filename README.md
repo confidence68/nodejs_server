@@ -176,7 +176,23 @@ rocker模块忽略了exports收集的name方法，返回了一个字符串“ROC
 现在你明白了，如果你想你的模块是一个特定的类型就用Module.exports。如果你想的模块是一个典型的“实例化对象”就用exports。
 
 
+## github源代码案例
 
+上面nodejs开启Http服务的案例我已经放到github了，大家可以看下！
+
+    http://localhost:3000/  //默认读取index.html中的内容
+    
+    http://localhost:3000/werwer/  //显示目录不存在
+    
+    http://localhost:3000/images/  //显示文件列表
+
+github地址：https://github.com/confidence68/nodejs_server
+
+### 案例二：nodejs+socket创建简单的聊天室
+
+引用socket.io和mime，创建简单的聊天室，很简单，大家可以看下！
+
+github地址：https://github.com/confidence68/node-socket
 
 
 

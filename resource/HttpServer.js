@@ -63,7 +63,7 @@ module.exports = (function(){
             }
 
             //获取资源文件的相对路径
-            var filePath = path.join("http/webroot",pathName);
+            var filePath = path.join("resource/html",pathName);
 
             //获取对应文件的文档类型
             var contentType = this.getContentType(filePath);
@@ -125,7 +125,7 @@ module.exports = (function(){
 
         ///配置信息
         config:{
-            port:8888,
+            port:3000,
             ip:'127.0.0.1',
             mime:{
                 html:"text/html",
